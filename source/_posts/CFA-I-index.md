@@ -4,6 +4,8 @@ date: 2025-07-04 15:34:45
 tags: 
     - CFA I
     - 学习笔记
+categories:
+    - [学习笔记, CFA I]
 toc: true
 ---
 
