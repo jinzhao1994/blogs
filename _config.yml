@@ -2,9 +2,9 @@ title: JinZhao1994's Blogs
 subtitle: ''
 description: ''
 keywords: null
-author: John Doe
-language: en
-timezone: ''
+author: jinzhao1994
+language: zh-CN
+timezone: 'Asia/Shanghai'
 url: https://jinzhao1994.github.io/blogs
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
