@@ -63,3 +63,4 @@ deploy:
   type: git
   repo: git@github.com:jinzhao1994/blogs.git
   branch: gh-pages
+toc: true

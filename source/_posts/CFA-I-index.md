@@ -6,8 +6,11 @@ tags:
     - 学习笔记
 categories:
     - [学习笔记, CFA I]
-toc: true
 ---
+
+CFA一级的学习顺序及一些常用链接
+
+<!-- more -->
 
 ## 外部资源
 
