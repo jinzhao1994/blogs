@@ -164,12 +164,20 @@ search:
     index_pages: true
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
-# comment:
-#     type: twikoo
-#     env_id: 
-#     lang: zh-CN
-#     # Disqus shortname
-#     # shortname: ''
+comment:
+    type: giscus  # maybe switch to twikoo if we want to deploy a backend service
+    repo: jinzhao1994/blogs
+    repoId: R_kgDOPGOBMQ             # 必填项
+    category: Announcements          # 可选填，默认为 Announcements
+    categoryId: DIC_kwDOPGOBMc4Csxs3 # 必填项
+    mapping: url                     # 可选填，默认为 pathname
+    strict: true                     # 可选填
+    reactionsEnabled: false          # 可选填
+    emitMetadata: false              # 可选填
+    inputPosition: top               # 可选填，默认为 top
+    theme: noborder_light            # 可选填
+    lang: zh-CN                      # 可选填，默认为 en
+    lazy: true                       # 可选填，默认为 false
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 # donates:
