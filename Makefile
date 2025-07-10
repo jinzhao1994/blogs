@@ -1,4 +1,4 @@
-.PHONY: demo clean deploy
+.PHONY: demo clean init_workspace
 
 demo:
 	hexo generate
@@ -7,5 +7,6 @@ demo:
 clean:
 	hexo clean
 
-deploy: clean
-	hexo deploy
+init_workspace:
+	npm install -g hexo-cli
+	npm install
