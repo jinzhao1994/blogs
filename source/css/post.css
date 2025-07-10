@@ -27,8 +27,19 @@ h1.title {
     margin-top: 1.5rem;
 }
 
+.article-meta .level-left {
+    max-width: 100%;
+    flex-wrap: wrap;
+    row-gap: 8px;
+}
+
 .article-meta .level-item {
     background-color: #f9f7f7;
     border-left: #55e9bc solid 4px;
     padding: 0 0.5rem;
+    white-space: nowrap;
+}
+
+.level.is-mobile .level-item:not(.is-narrow) {
+    flex-grow: unset;
 }
