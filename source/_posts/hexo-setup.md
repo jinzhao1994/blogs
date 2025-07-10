@@ -27,18 +27,18 @@ categories:
 # 编译 & 预览
 make
 
-# 发布（到github pages）
-make deploy
-
 # 创建新文章
 hexo new '<file-name>'
+
+# 在新环境上初始化 （假设已经安装好npm）
+make init_workspace
 ```
+
+推送到`main`分支后自动通过github actions部署
 
 ## TODOs
 
-- 显示浏览量
 - 记忆滚动位置
-- 评论系统
 - donate 或 ads :)
 - CDN
 - 同步发布文章到CSDN等其他平台
