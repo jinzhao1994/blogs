@@ -357,15 +357,15 @@ plugins:
     # https://tongji.baidu.com
     baidu_analytics:
         # Baidu Analytics tracking ID
-        tracking_id: 
+        tracking_id: e3ac759400e0da907d9fc5ecfc935737
     # Bing Webmaster Tools plugin settings
     # https://www.bing.com/toolbox/webmaster/
     bing_webmaster:
         # Bing Webmaster Tools tracking ID in the <meta> tag
-        tracking_id: 
+        tracking_id: 0CE3CDD3DB8A577C5E4B3054FDC74CFB
     # BuSuanZi site/page view counter
     # https://busuanzi.ibruce.info
-    busuanzi: false
+    busuanzi: true
     # CNZZ statistics
     # https://www.umeng.com/web
     cnzz:
@@ -392,7 +392,7 @@ plugins:
     # https://analytics.google.com
     google_analytics:
         # Google Analytics tracking ID
-        tracking_id: 
+        tracking_id: G-DE6R5G03CG
     # Hotjar user feedback plugin
     # https://www.hotjar.com/
     hotjar:
