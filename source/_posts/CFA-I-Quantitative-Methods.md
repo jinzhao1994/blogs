@@ -226,7 +226,7 @@ $$ L_y = (n+1) \times y / 100 $$
 
 箱线图 (**box and whisker plot**)
 
-![](/img/CFA-I/box_and_whisker_plot.png)
+![](/source/img/CFA-I/box_and_whisker_plot.png)
 
 
 ### 绝对离散程度
@@ -465,7 +465,7 @@ $$ X \sim N(\mu, \sigma^2) $$
 | 95% | $ \mu \pm 1.96 \sigma $ |
 | 99% | $ \mu \pm 2.58 \sigma $ |
 
-![](/img/CFA-I/normal_distribution.png)
+![](/source/img/CFA-I/normal_distribution.png)
 
 ### 标准正态分布
 
@@ -487,7 +487,7 @@ $$ \Phi(-k) = 1-\Phi(k) $$
 亏空风险 (**shortfall risk**): the risk that portfolio value or return will fall below the minimum
 acceptable level (**R<sub>L</sub>**, **shortfall level**, **threshold level**) over some time horizon
 
-![](/img/CFA-I/shortfall_risk.png)
+![](/source/img/CFA-I/shortfall_risk.png)
 
 安全第一比率 (**safety-first ratio**, **SFRatio**)
 
@@ -504,7 +504,7 @@ $$ P(R_p \le R_L) = \Phi (-\text{SFRatio}) $$
 - If $ X $ is normally distributed, then $ e^x $ is lognormal distributed
 - If $ Y $ follows a lognormal distribution, then $ \ln Y $ is normally distributed
 
-![](/img/CFA-I/lognormal_distribution.png)
+![](/source/img/CFA-I/lognormal_distribution.png)
 
 - 左边界为零 bounded from below by zero
 - 正偏 positively skewed
@@ -532,7 +532,7 @@ $$ \sigma(r_{0, T}) = \sigma \sqrt{T} $$
 - as df increase, T-distribution is approaching to standard normal distribution
 - T-distribution has a wider confidence interval than Z-distribution
 
-![](/img/CFA-I/t_distribution.png)
+![](/source/img/CFA-I/t_distribution.png)
 
 ## 抽样和推断
 
@@ -689,7 +689,7 @@ If the P-value < level of significance (x), reject the null hypothesis
 
 **P-value** is the smallest level of significance at which the null hypothesis can be rejected
 
-![](/img/CFA-I/hypothesis_testing.png)
+![](/source/img/CFA-I/hypothesis_testing.png)
 
 ### 一类错误和二类错误
 

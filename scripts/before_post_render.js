@@ -9,5 +9,9 @@ hexo.extend.filter.register("before_post_render", function (data) {
         return `${pre}<span>\$${formula}\$</span>`;
     });
 
+    data.content = data.content.replace(/!\[([^\]]*)\]\(\/source\/img\/([^)]+)\)/g, (match, alt, path) => {
+        return `![${alt}](/img/${path})`;
+    });
+
     return data;
 }, 0);
