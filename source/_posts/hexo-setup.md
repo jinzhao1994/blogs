@@ -39,6 +39,7 @@ make init_workspace
 ## TODOs
 
 - 记忆滚动位置
+- 目录栏太长时无法滚动
 - donate 或 ads :)
 - CDN
 - 同步发布文章到CSDN等其他平台
