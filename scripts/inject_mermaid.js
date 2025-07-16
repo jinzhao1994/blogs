@@ -2,8 +2,8 @@ const css = hexo.extend.helper.get("css").bind(hexo);
 const js = hexo.extend.helper.get("js").bind(hexo);
 
 hexo.extend.injector.register("body_end", `
-<script type="module">
-    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+<script src="${hexo.config.root}js/3rd/mermaid11/dist/mermaid.min.js"></script>
+<script>
     mermaid.initialize({ startOnLoad: true });
 </script>
 `);
