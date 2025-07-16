@@ -1,6 +1,5 @@
 ---
 title: CFA I 经济 笔记
-date: 2025-07-11 17:45:14
 tags:
     - CFA I
     - 学习笔记

@@ -1,6 +1,5 @@
 ---
 title: CFA I 数量 笔记
-date: 2025-07-04 16:26:11
 tags:
     - CFA I
     - 学习笔记

@@ -17,6 +17,7 @@ h1.title,
     max-width: 80%;
     display: block;
     margin: auto;
+    margin-bottom: 8px;
     border-style: solid;
     border-color: rgb(205, 205, 205);
     border-width: 1px;
