@@ -5,7 +5,7 @@ hexo.extend.filter.register("before_post_render", function (data) {
     });
 
     // 匹配 $...$ 的行内公式（避免嵌套 $$ 内部）
-    data.content = data.content.replace(/(^|[^$])\$([^\$]+?)\$/g, (match, pre, formula) => {
+    data.content = data.content.replace(/(^|[^$\\])\$([^\$]+?)\$/g, (match, pre, formula) => {
         return `${pre}<span>\$${formula}\$</span>`;
     });
 

@@ -43,3 +43,8 @@ h1.title {
 .level.is-mobile .level-item:not(.is-narrow) {
     flex-grow: unset;
 }
+
+.column-right #toc {
+    max-height: 85vh;
+    overflow-y: auto;
+}
