@@ -23,6 +23,10 @@ h1.title,
     border-width: 1px;
     box-shadow: 8px 4px 4px gray;
 }
+.content li ul,
+.content li ol {
+    margin-top: 0.25em;
+}
 
 h1.title {
     margin-top: 1.5rem;
