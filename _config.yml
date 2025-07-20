@@ -22,6 +22,7 @@ skip_render:
   - css/**/*
   - js/**/*
   - img/**/*
+  - test/**/*
 new_post_name: ':title.md'
 default_layout: post
 titlecase: false

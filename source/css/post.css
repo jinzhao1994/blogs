@@ -1,4 +1,4 @@
-h1.title,
+.article h1.title,
 .content h1,
 .content h2,
 .content h3,
@@ -7,6 +7,10 @@ h1.title,
 .content h6 {
     color: #108baa;
     font-weight: 600;
+}
+
+.article h1.title {
+    margin-top: 1.5rem;
 }
 
 .content strong {
@@ -29,8 +33,30 @@ h1.title,
     margin-top: 0.25em;
 }
 
-h1.title {
-    margin-top: 1.5rem;
+.content blockquote {
+    font-size: 0.95rem;
+    font-style: italic;
+    color: #808080;
+}
+
+.content table th {
+    vertical-align: middle;
+    background-color: #f9f9f9;
+    position: sticky;
+}
+
+.content table thead th {
+    top: 0;
+    z-index: 3;
+}
+
+.content table tbody th {
+    left: 0;
+    z-index: 2;
+}
+
+.content table td {
+    vertical-align: middle;
 }
 
 .article-meta .level-left {
@@ -53,4 +79,11 @@ h1.title {
 .column-right #toc {
     max-height: 85vh;
     overflow-y: auto;
+}
+
+@media screen and (min-width: 1280px) {
+    .is-2-column .container {
+        max-width: 1152px;
+        width: 1152px;
+    }
 }
